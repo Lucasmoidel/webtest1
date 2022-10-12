@@ -1,51 +1,37 @@
 html {
-    background: rgb(97, 184, 166);
+    background: rgb(85, 241, 93);
     font-family: Arial, Helvetica, sans-serif;
+    color: white;
 }
 
 header{
-    background: rgb(225, 118, 132);
+    background: rgb(55, 109, 58);
     padding: 20px;
     height: 400px;
     text-align: center;
 }
 ttext {
-    color: rgb(253, 244, 244);
-    position: relative;
-    top: -550;
+    color: white;
     font-size: 50px;
 }
 nav li{
     display: inline;
 }
 nav a{
-    color: rgb(253, 244, 244);
+    color: white;
     margin: 25;
 }
-pf img{
-    border: 1px solid white;
-    border-radius: 100%;
-    box-shadow: rgb(240, 85, 106) 0 0 10px;
-    margin: 250px;
-    height: 200px;
-    width: 200px;
-    position: relative;
-    top: -250;
-}
-pf figcaption{
-    position: relative;
-    top: -500;
-    color: rgb(253, 244, 244);
-}
-
-
 footer{
     position: relative;
     top: 600;
-    background: black;
-    color: grey;
-    opacity: 50%;
+    background: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
+    opacity: 60%;
     font-size: 12px;
     padding: 20px 20px;
     text-align: center;
+    color: rgb(255, 255, 255);
+}
+footer a {
+    color: white;
 }
